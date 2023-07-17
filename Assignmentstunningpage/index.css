@@ -1,0 +1,114 @@
+body{
+    background-color: wheat;
+    height: 30vh !important;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 80px;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.ankertags a{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 15px;
+    color: gray;
+}
+
+.ankertags a:hover{
+    border-bottom: 3px solid blue;
+    cursor: pointer;
+    color: black;
+}
+.yourbtn{
+    border-width: 0px;
+    background-color: pink;
+    color: blue;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+#main-section{
+    display: flex;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.left-section{
+    width: 40%;
+}
+.right-section{
+    width: 60%;
+}
+.stunningtxt{
+    font-size: 70px;
+}
+.newbtn{
+    border-width: 0px;
+    background-color: blue;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.newaccount{
+    margin-top: 40px;
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+.listbtn,.listbtn2,.listbtn3,.listbtn1{
+    border-width: 0px;
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.listbtn1{
+   
+    background-color: red;
+   
+}
+.listbtn2{
+    background-color: lightgreen;
+    
+}
+.listbtn3{
+    background-color: yellow;
+}
+.Lists{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    background-image: url("./tick-gray.png");
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+   
+}
+.Lists:hover{
+    background-color: white;
+    cursor: pointer;
+    background-image: url("./tick-blue.png");
+    background-repeat: no-repeat;
+    background-position: 15px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.listleft{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.listright{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
